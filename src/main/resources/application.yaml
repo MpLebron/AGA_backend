@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://39.98.210.144:59349/Ygwguser
+  thymeleaf:
+    cache: false
+  mail:
+    host: smtp.163.com
+    username: xiaoyuhe1121@163.com
+    password: JWQIDVJAMJJGQXLJ
+    port: 465
+    protocol: smtp
+
+server:
+  port: 8083
+  servlet:
+    context-path: /ygwg
+
+logging:
+  file:
+    path: /home/log
